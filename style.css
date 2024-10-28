@@ -16,7 +16,7 @@ header nav ul li a{
 }
 #brandname{
   position: relative;
-  left: 570px;
+  left: 650px;
   bottom: 35px;
   font-family: cursive;
   font-size: 45px;
@@ -35,7 +35,7 @@ header nav ul li a{
 #arrowcont .arrow{
   display: inline;
   position: relative;
-  left: 650px;
+  left: 720px;
   bottom: 40px;
 }
 .arrow{
@@ -54,7 +54,7 @@ header nav ul li a{
 #mainpic{
   position: relative;
   bottom: 135px;
-  right: 200px;
+  right: 193px;
 }
 #dollar{
   font-family: sans-serif;
@@ -73,11 +73,11 @@ header nav ul li a{
 #price{
   padding: 10px;
   position: relative;
-  left: 12px;
+  left: 20px;
   width: 280px;
   height: 270px;
   border-radius: 25px;
-  background-color: #E0DDCA;
+  background-color: #eec4dc;
 }
 #btn_add{
   width: 150px;

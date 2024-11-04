@@ -7,8 +7,8 @@ body{
         overflow-x: hidden;
 }
 .ic{
-        position: relative;
-        left: 690px;
+  display: flex;
+  flex: end;
 }
 .nav-link{
         color: black;
@@ -65,7 +65,7 @@ body{
         position: relative;
         bottom: 31px;
         height: 420px;
-        background-image: url(images/png/cute.png);
+        background-image: url(images/png/blue.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 320px;

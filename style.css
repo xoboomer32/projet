@@ -1,56 +1,94 @@
+@font-face {
+        font-family: sinera;
+        src: url(public/font/sinera/Sinera.otf);
+}
 body{
-  overflow-y: scroll;
-  overflow-x: hidden;
+        padding: 20px;
+        overflow-x: hidden;
 }
-header nav ul{
-  margin-top: 20px;
+.ic{
+  display: flex;
+  flex: end;
 }
-header nav ul li{
-  padding: 10px;
-  display: inline;
+.nav-link{
+        color: black;
+        font-size: 20px;
 }
-header nav ul li a{
-  font-size: 20px;
-  text-decoration: none;
-  color: black;
+.navbar-brand{
+        position: relative;
+        left: 310px;
+        font-size: 50px;
+        font-family: sinera;
 }
+<<<<<<< HEAD
 #brandname{
   position: relative;
   left: 650px;
   bottom: 35px;
   font-family: cursive;
   font-size: 45px;
+=======
+.image{
+        margin: 20px 0px 20px 0px;
+        height: 420px;
+        background-color: #e4e4e4;
+>>>>>>> create
 }
-#navoption{
-  position: relative;
-  left: 1220px;
-  bottom: 100px;
+.reaction{
+        position: relative;
+        top: 10px;
+        left: 302px;
+        font-size: 30px;
 }
-#navoption a{
-  text-decoration: none;
-  color: #45496A;
-  padding-left: 20px;
-  font-size: 25px;
+#image1{
+        position: relative;
+        bottom: 31px;
+        height: 420px;
+        background-image: url(images/png/pink.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 320px;
+        filter: drop-shadow(5px 0px 5px #93a1b5);
 }
+<<<<<<< HEAD
 #arrowcont .arrow{
   display: inline;
   position: relative;
   left: 720px;
   bottom: 40px;
+=======
+#image2{
+        position: relative;
+        bottom: 31px;
+        height: 420px;
+        background-image: url(images/png/floral.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 320px;
+        filter: drop-shadow(5px 0px 5px #93a1b5);
+>>>>>>> create
 }
-.arrow{
-  font-size: 40px;
+#image3{
+        position: relative;
+        bottom: 31px;
+        height: 420px;
+        background-image: url(images/png/redDress.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 320px;
+        filter: drop-shadow(5px 0px 5px #93a1b5);
 }
-.dot {
-    height: 25px;
-    width: 25px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    position: relative;
-    bottom: 40px;
-    left: 55px;
+#image4{
+        position: relative;
+        bottom: 31px;
+        height: 420px;
+        background-image: url(images/png/blue.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 320px;
+        filter: drop-shadow(5px 0px 5px #93a1b5);
 }
+<<<<<<< HEAD
 #mainpic{
   position: relative;
   bottom: 135px;
@@ -62,14 +100,22 @@ header nav ul li a{
   position: relative;
   left: 150px;
   bottom: 25px;
+=======
+>>>>>>> create
 
+/* searchbar */
+/* .search {
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
 }
-#price_heart{
-  position: relative;
-  left: 10px;
-  top: 10px;
-  font-size: 30px;
+.search * {
+outline: none;
+box-sizing: border-box;
 }
+<<<<<<< HEAD
 #price{
   padding: 10px;
   position: relative;
@@ -78,38 +124,130 @@ header nav ul li a{
   height: 270px;
   border-radius: 25px;
   background-color: #eec4dc;
+=======
+.search__wrapper {
+position: relative;
+>>>>>>> create
 }
-#btn_add{
-  width: 150px;
-  height: 40px;
-  padding: 1px;
-  background-color: #45496A;
-  border-radius: 25px;
-  font-size: 16px;
-  color: white;
-  position: relative;
-  right: 80px;
+.search__field {
+width: 50px;
+height: 50px;
+color: transparent;
+font-family: Lato, sans-serif;
+font-size: 1.35em;
+padding: 0.35em 50px 0.35em 0;
+border: 1px solid transparent;
+border-radius: 0;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
 }
-#extralink{
-  position: relative;
-  top: 20px;
-  display: inline;
+.search__field:focus {
+border-bottom-color: #ccc;
+width: 50vw;
+color: #2b2b2b;
+cursor: default;
 }
-#extralink a{
-  text-decoration: none;
-  color: #45496A;
-  padding-right: 15px;
+.search__field:focus ~ .search__icon {
+background-color: transparent;
+cursor: pointer;
+pointer-events: auto;
 }
-.pic3 img{
-  width: 300px;
-  height: 190px;
-  border-radius: 10px;
-  box-shadow: 1px 1px 10px grey;
+.search__icon {
+position: absolute;
+top: 0;
+right: 0;
+background-color: #e9f1f4;
+width: 50px;
+height: 50px;
+font-size: 1.35em;
+text-align: center;
+border-color: transparent;
+border-radius: 50%;
+pointer-events: none;
+display: inline-block;
+transition: background-color 0.2s ease-in-out;
 }
-#deux{
-  position: relative;
-  left: 50px;
+.search__field::-webkit-input-placeholder {
+position: relative;
+top: 0;
+left: 0;
+transition-property: top, color;
+transition-duration: .1s;
+-webkit-transform: translateZ(0);
+transform: translateZ(0);
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+-webkit-perspective: 1000;
+perspective: 1000;
 }
-#trois{
-  padding-left: 150px;
+.search__field:-moz-placeholder {
+position: relative;
+top: 0;
+left: 0;
+transition-property: top, color;
+transition-duration: .1s;
+-webkit-transform: translateZ(0);
+transform: translateZ(0);
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+-webkit-perspective: 1000;
+perspective: 1000;
 }
+.search__field::-moz-placeholder {
+position: relative;
+top: 0;
+left: 0;
+transition-property: top, color;
+transition-duration: .1s;
+-webkit-transform: translateZ(0);
+transform: translateZ(0);
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+-webkit-perspective: 1000;
+perspective: 1000;
+}
+.search__field:-ms-input-placeholder {
+position: relative;
+top: 0;
+left: 0;
+transition-property: top, color;
+transition-duration: .1s;
+-webkit-transform: translateZ(0);
+transform: translateZ(0);
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+-webkit-perspective: 1000;
+perspective: 1000;
+}
+.search__field::-webkit-input-placeholder[style*=hidden] {
+color: #83b0c1;
+font-size: .65em;
+font-weight: normal;
+top: -20px;
+opacity: 1;
+visibility: visible !important;
+}
+.search__field:-moz-placeholder[style*=hidden] {
+color: #83b0c1;
+font-size: .65em;
+font-weight: normal;
+top: -20px;
+opacity: 1;
+visibility: visible !important;
+}
+.search__field::-moz-placeholder[style*=hidden] {
+color: #83b0c1;
+font-size: .65em;
+font-weight: normal;
+top: -20px;
+opacity: 1;
+visibility: visible !important;
+}
+.search__field:-ms-input-placeholder[style*=hidden] {
+color: #83b0c1;
+font-size: .65em;
+font-weight: normal;
+top: -20px;
+opacity: 1;
+visibility: visible !important;
+} */

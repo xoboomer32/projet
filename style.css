@@ -6,69 +6,93 @@ body{
         padding: 20px;
         overflow-x: hidden;
 }
-.ic{
-  display: flex;
-  flex: end;
+.navbar{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        margin-bottom: 30px;
 }
-.nav-link{
-        color: black;
+.sect1{
+        width: 40%;
+        height: 5%;
+        padding-left: 60px;
+}
+.sect1 a{
+        margin-right: 20px;
+        text-decoration: none;
         font-size: 20px;
+        color: black;
 }
-.navbar-brand{
-        position: relative;
-        left: 310px;
-        font-size: 50px;
+.sect2{
+        display: flex;
+        justify-content: center;
+        width: 20%;
+        height: 5%;
+}
+.brand{
         font-family: sinera;
+        font-size: 50px;
+}
+.sect3{
+        display: flex;
+        justify-content: flex-end;
+        width: 40%;
+        height: 5%;
+        padding-right: 60px;
+}
+.sect3 a{
+        text-decoration: none;
+        margin-right: 20px;
+        font-size: 20px;
+        color: black;
+        display: inline;
 }
 .image{
+        position: relative;
         margin: 20px 0px 20px 0px;
         height: 420px;
         background-color: #e4e4e4;
 }
 .reaction{
-        position: relative;
+        position: absolute;
         top: 10px;
-        left: 302px;
+        right: 10px;
         font-size: 30px;
 }
 #image1{
         position: relative;
-        bottom: 31px;
         height: 420px;
         background-image: url(images/png/pink.png);
         background-position: center;
         background-repeat: no-repeat;
-        background-size: 320px;
+        background-size: 310px;
         filter: drop-shadow(5px 0px 5px #93a1b5);
 }
 #image2{
         position: relative;
-        bottom: 31px;
         height: 420px;
-        background-image: url(images/png/floral.png);
+        background-image: url(images/png/purple.png);
         background-position: center;
         background-repeat: no-repeat;
-        background-size: 320px;
+        background-size: 310px;
         filter: drop-shadow(5px 0px 5px #93a1b5);
 }
 #image3{
         position: relative;
-        bottom: 31px;
         height: 420px;
         background-image: url(images/png/redDress.png);
         background-position: center;
         background-repeat: no-repeat;
-        background-size: 320px;
+        background-size: 310px;
         filter: drop-shadow(5px 0px 5px #93a1b5);
 }
 #image4{
         position: relative;
-        bottom: 31px;
         height: 420px;
         background-image: url(images/png/blue.png);
         background-position: center;
         background-repeat: no-repeat;
-        background-size: 320px;
+        background-size: 310px;
         filter: drop-shadow(5px 0px 5px #93a1b5);
 }
 

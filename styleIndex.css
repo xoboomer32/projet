@@ -1,0 +1,172 @@
+@font-face {
+  font-family: montserrat;
+  src: url(public/font/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: mont;
+  src: url(public/font/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+body{
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+}
+header nav ul{
+  margin-top: 20px;
+}
+header nav ul li{
+  padding: 10px;
+  display: inline;
+}
+header nav ul li a{
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+#brandname{
+  position: relative;
+  left: 650px;
+  bottom: 35px;
+  font-family: cursive;
+  font-size: 45px;
+}
+#navoption{
+  position: relative;
+  left: 1220px;
+  bottom: 100px;
+}
+#navoption a{
+  text-decoration: none;
+  color: #45496A;
+  padding-left: 20px;
+  font-size: 25px;
+}
+#arrowcont .arrow{
+  display: inline;
+  position: relative;
+  left: 720px;
+  bottom: 40px;
+}
+.arrow{
+  font-size: 40px;
+}
+#clotheName{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: montserrat;
+}
+#descr1{
+  font-size: 25px;
+}
+#descr2{
+  font-family: mont;
+  font-weight: bold;
+  font-size: 20px;
+}
+#rond{
+  margin-left: 85px;
+  width: 150px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.dot {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  bottom: 50px;
+  box-shadow: 2px 3px 5px grey;
+}
+.dot1{
+  background-color: azure;
+}
+.dot2{
+  background-color: cyan;
+}
+.dot3{
+  background-color: red;
+}
+#btn_add{
+  width: 170px;
+  height: 40px;
+  box-shadow: 2px 3px 5px #84C7D0;
+  padding: 1px;
+  border-style: none;
+  background-color: #75DDDD;
+  border-radius: 25px;
+  font-size: 16px;
+  font-family: montserrat;
+  font-weight: bold;
+  color: white;
+  text-shadow: -3px 0px 5px grey;
+  position: relative;
+
+}
+#extralink{
+  position: relative;
+  top: 20px;
+  display: inline;
+}
+.fa-facebook{
+  background-color: #ffffff;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #0957c3;
+}
+.fa-instagram{
+  font-size: 30px;
+}
+.fa-pinterest{
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: #efefef;
+  color: #BD081C;
+}
+#extralink a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #45496A;
+  padding-right: 15px;
+}
+/* fin style premier col */
+#mainproduct{
+  position: relative;
+  width: 100%;
+  height: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.case{
+  display: flex;
+  width: 90%;
+  height: 90%;
+  background-color: #BD081C;
+}
+.price{
+  width: 100%;
+  height: 20%;
+  background-color: purple;
+}
+.mainpic{
+  position: absolute;
+  display: flex;
+  width: 90%;
+  height: 90%;
+  bottom: 0;
+  background-image: url(images/png/chemisegrey.png);
+  background-repeat: no-repeat;
+  background-size: 350px;
+}
+.pic3 img{
+  width: 300px;
+  height: 190px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px grey;
+}
+#deux{
+}
+#trois{
+}
